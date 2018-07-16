@@ -41,7 +41,7 @@
                                             <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hn0-bo-LKE"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no-image-selected" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sSI-xc-cFF">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no-image-selected" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sSI-xc-cFF">
                                         <rect key="frame" x="0.0" y="104.5" width="339" height="339"/>
                                         <gestureRecognizers/>
                                         <constraints>
@@ -74,8 +74,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="tMs-L5-d0z">
                     <connections>
-                        <action selector="imageTapped:" destination="BYZ-38-t0r" id="0iI-a0-H9b"/>
-                        <outlet property="delegate" destination="sSI-xc-cFF" id="zAK-Fo-nlQ"/>
+                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="vap-RO-aGZ"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

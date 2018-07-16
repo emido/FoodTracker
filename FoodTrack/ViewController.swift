@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         mealNameLabel.text = "Default Text"
     }
     
-    @IBAction func imageTapped(_ sender: UITapGestureRecognizer) {
+    @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
         print("Im here")
         nameTF.resignFirstResponder()
         let imagePickerController = UIImagePickerController()
@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         imagePickerController.delegate = self
         present(imagePickerController, animated: true, completion: nil)
     }
+   
     
 }
 
