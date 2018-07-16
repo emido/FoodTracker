@@ -14,6 +14,7 @@
 		5C08697B20F94277000FCBB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C08697920F94277000FCBB8 /* LaunchScreen.storyboard */; };
 		5C08698620F94278000FCBB8 /* FoodTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08698520F94278000FCBB8 /* FoodTrackTests.swift */; };
 		5C08699120F94278000FCBB8 /* FoodTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08699020F94278000FCBB8 /* FoodTrackUITests.swift */; };
+		5C08699F20FC4303000FCBB8 /* StarRatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08699E20FC4303000FCBB8 /* StarRatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5C08698C20F94278000FCBB8 /* FoodTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C08699020F94278000FCBB8 /* FoodTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackUITests.swift; sourceTree = "<group>"; };
 		5C08699220F94278000FCBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C08699E20FC4303000FCBB8 /* StarRatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				5C08697020F94276000FCBB8 /* AppDelegate.swift */,
 				5C08697220F94276000FCBB8 /* ViewController.swift */,
+				5C08699E20FC4303000FCBB8 /* StarRatingControl.swift */,
 				5C08697420F94276000FCBB8 /* Main.storyboard */,
 				5C08697720F94277000FCBB8 /* Assets.xcassets */,
 				5C08697920F94277000FCBB8 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C08699F20FC4303000FCBB8 /* StarRatingControl.swift in Sources */,
 				5C08697320F94276000FCBB8 /* ViewController.swift in Sources */,
 				5C08697120F94276000FCBB8 /* AppDelegate.swift in Sources */,
 			);
