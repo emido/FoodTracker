@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameTF: UITextField!
     @IBOutlet weak var mealNameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet weak var ratingControl: StarRatingControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,9 +26,7 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        mealNameLabel.text = "Default Text"
-    }
+   
     
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
         print("Im here")
